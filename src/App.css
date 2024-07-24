@@ -1,0 +1,1666 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nissan Regular", "Nissan Regular", Verdana, Arial, sans-serif;
+}
+
+.navbarDiv {
+    width: 100%;
+    height: 117vh;
+    background: url("https://www.nissanusa.com/content/dam/Nissan/us/vehicles/gtr/2024/site-simp/overview/pfa/2024-nissan-gt-r-sports-car-light-green-side-profile-view-xl.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    flex-wrap: wrap;
+
+}
+
+.navbarDiv2 {
+    width: 100%;
+    height: 100vh;
+    background: url("https://www.nissanusa.com/content/dam/Nissan/us/vehicles/gtr/2024/site-simp/gallery/pfa/2024-nissan-gt-r-gt-r-t-spec-xl.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    flex-wrap: wrap;
+
+}
+
+.navbarDiv3 {
+    width: 100%;
+    height: 100vh;
+    background: url("https://www.nissanusa.com/content/dam/Nissan/us/vehicles/gtr/2024/site-simp/features/pfa/2024-nissan-gt-r-high-performance-luxury-sports-car-light-green-xl.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    flex-wrap: wrap;
+
+}
+
+.navbarDiv4 {
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+    background: url("https://www-asia.nissan-cdn.net/content/dam/Nissan/in/campaign/Press/GTRPR1Sep16.jpeg.ximg.l_full_m.smart.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+
+}
+
+.navbarDiv5 {
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+
+#navbarNav {
+    margin-left: 42%;
+}
+
+.navbar {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#link1 {
+    position: relative;
+    text-decoration: none;
+}
+
+#link1:after {
+    content: "";
+    position: absolute;
+    background-color: brown;
+    height: 4px;
+    border-radius: 10px;
+    width: 0;
+    left: 0%;
+    bottom: -5px;
+    transition: all 0.4s;
+    /* transform: scale(0); */
+    transform-origin: right;
+    transition: transform 0.5s;
+}
+
+#link1:hover:after {
+    width: 100%;
+    /* transform: scale(1); */
+}
+
+#navbarNav ul li a {
+    color: rgb(212, 210, 210);
+}
+
+#navbarNav ul {
+    gap: 12px;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+}
+
+#btn-1 {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    font-family: "Nissan Regular", "Nissan Regular", Verdana, Arial, sans-serif;
+    width: 180px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s all;
+    margin-right: 80px;
+    margin-top: -7%;
+}
+
+#btn-1:hover {
+    letter-spacing: 0.3px;
+    
+}
+
+#btn-1:hover i {
+    transform: translateX(40%);
+    transition: 0.4s ease-in-out;
+    color: brown;
+}
+
+#btn:hover i {
+    transform: translateX(40%);
+    transition: 0.4s ease-in-out;
+}
+
+#btn {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    font-family: "Nissan Regular", "Nissan Regular", Verdana, Arial, sans-serif;
+    width: 160px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid rgb(216, 215, 215);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s all;
+    margin-top: 0.5%;
+}
+
+#btn:hover {
+    background-color: red;
+    border: 1px solid red;
+}
+
+#btn3 {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    font-family: "Nissan Regular", "Nissan Regular", Verdana, Arial, sans-serif;
+    width: 180px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid rgb(216, 215, 215);
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+#btn3:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+}
+
+#btn3:hover i {
+    transform: translateX(40%);
+    transition: 0.4s ease-in-out;
+    color: rgb(194, 34, 34);
+}
+
+#btn9:hover i {
+    transform: translateX(30%);
+    transition: 0.4s ease-in-out;
+    color: brown;
+}
+
+#btn9 {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    font-family: "Nissan Regular", "Nissan Regular", Verdana, Arial, sans-serif;
+    width: 180px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: brown;
+    border: 1px solid brown;
+    cursor: pointer;
+    transition: 0.5s all;
+    color: white;
+}
+
+#btn9:hover {
+    background-color: white;
+    color: brown;
+}
+
+#btn4:hover i {
+    transform: translateX(40%);
+    transition: 0.4s ease-in-out;
+    color: rgb(190, 32, 32);
+}
+
+#btn4 {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    font-family: "Nissan Regular", "Nissan Regular", Verdana, Arial, sans-serif;
+    width: 180px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s all;
+    margin-left: 6%;
+}
+
+#btn4:hover {
+    color: brown;
+}
+
+#btn5 {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    font-family: "Nissan Regular", "Nissan Regular", Verdana, Arial, sans-serif;
+    width: 180px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+#btn5:hover i {
+    transform: translateX(40%);
+    transition: 0.4s ease-in-out;
+    color: rgb(208, 15, 15);
+}
+
+#btn5:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+}
+
+.navbar-2 {
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    z-index: 5000;
+}
+
+.navbar-2 ul li a {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    list-style: none;
+    color: white;
+}
+
+.navbar-2.fixed {
+    background-color: white;
+    transition: 0.2s ease-in-out;
+    position: fixed;
+    top: 0;
+    color: black;
+    align-items: center;
+    z-index: 1000;
+}
+
+.navbar-2.fixed a {
+    color: black;
+}
+
+.navbar-2.fixed .active {
+    font-weight: 500;
+    border-bottom: none;
+    color: rgb(219, 44, 44);
+}
+
+.navbar-2.fixed p {
+    margin-top: 1%;
+}
+
+.navbar-2.fixed ul {
+    margin-top: 1%;
+}
+
+.navbar-2.fixed #btn-1 {
+    background-color: brown;
+    color: white;
+    margin-top: 7%;
+}
+
+.navbar-2.fixed #btn-1:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    letter-spacing: 0;
+    font-weight: 500;
+}
+
+.navbar-2 ul {
+    display: flex;
+    margin-left: 32%;
+    font-family: "Nissan Regular", "Nissan Regular", Verdana, Arial, sans-serif;
+    gap: 40px;
+
+}
+
+.GTR {
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 55%;
+}
+
+.GTR p {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    font-family: "Nissan Regular", "Nissan Regular", Verdana, Arial, sans-serif;
+}
+
+.GTR h1 {
+    font-size: 55px;
+    font-weight: 100;
+}
+
+.overview-div1 {
+    width: 100%;
+    height: fit-content;
+    flex-wrap: wrap;
+}
+
+.child-div1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 4%;
+    font-family: "Nissan Regular", "Nissan Regular", Verdana, Arial, sans-serif;
+    flex-wrap: wrap;
+}
+
+.child2 p {
+    width: 640px;
+}
+
+.child2 h1 {
+    font-size: 50px;
+}
+
+.child2 #para {
+    color: rgb(155, 152, 152);
+    letter-spacing: 0.9px;
+    flex-wrap: wrap;
+}
+
+.child1 p {
+    font-size: 70px;
+    font-family: "Nissan Regular", "Nissan Regular", Verdana, Arial, sans-serif;
+    font-weight: 100;
+    line-height: 90px;
+    width: 400px;
+    letter-spacing: 0.8px;
+}
+
+.child-div2 {
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.child3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+#para1 {
+    font-size: 90px;
+    font-weight: 100;
+}
+
+#para2 {
+    font-size: 15px;
+    color: rgba(92, 89, 89, 0.659);
+}
+
+.img-div {
+    width: 100%;
+    height: 600px;
+    background: url("https://www.nissanusa.com/content/dam/Nissan/us/vehicles/gtr/2024/site-simp/overview/2024-nissan-gt-r-nismo-driving-down-racetrack.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.child-div3 {
+    width: 100%;
+    height: 100vh;
+    background-color: #f0ece8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 49px;
+    padding-left: 5%;
+}
+
+.child5 {
+    width: 600px;
+}
+
+#para3 {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.btns-div button {
+    padding: 9px 20px;
+    margin-left: 2%;
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    color: rgb(122, 119, 119);
+}
+
+.btns-div button:hover {
+    border-bottom: 2px solid brown;
+}
+
+#btns:hover i {
+    transform: translateX(30%);
+    transition: 0.4s ease-in-out;
+}
+
+#clickOne {
+    border-bottom: 2px solid brown;
+}
+
+#para4 {
+    width: 450px;
+    letter-spacing: 0.5px;
+    color: rgb(130, 128, 128);
+}
+
+.child-div4 {
+    width: 100%;
+    height: 140vh;
+    background-color: #fff;
+    flex-wrap: wrap;
+}
+
+.child6 {
+    text-align: center;
+    padding-top: 5%;
+    flex-wrap: wrap;
+
+}
+
+.child7 {
+    text-align: center;
+    padding-top: 4%;
+    flex-wrap: wrap;
+}
+
+#para5 {
+    width: 1190px;
+    margin-left: 11%;
+    letter-spacing: 1px;
+    color: rgba(102, 99, 99, 0.884);
+    flex-wrap: wrap;
+}
+
+.child-div5 {
+    width: 100%;
+    height: fit-content;
+    background-color: #f0ece8;
+    display: flex;
+    align-items: center;
+}
+
+.child8 {
+    text-align: start;
+    padding-top: 4%;
+    padding-left: 12%;
+    width: 800px;
+}
+
+.child9 {
+    padding-top: 4%;
+}
+
+.scroll-down {
+    margin-left: -15%;
+}
+
+.accordion-item {
+    width: 800px;
+    border: none;
+}
+
+.accordion-body {
+    background-color: #f0ece8;
+    scroll-behavior: smooth;
+}
+
+.accordion-header .accordion-button {
+    background-color: #f0ece8;
+}
+
+.child-div6 {
+    width: 100%;
+    height: fit-content;
+    background-color: #ffff;
+    text-align: center;
+}
+
+.child-div6 img {
+    padding-top: 6%;
+}
+
+.child10 {
+    padding-top: 5%;
+}
+
+#para6 {
+    width: 550px;
+    color: rgb(127, 124, 124);
+    margin-left: 33%;
+    word-spacing: 2px;
+    padding-top: 2%;
+}
+
+#btn6:hover i {
+    transform: translateX(40%);
+    transition: 0.4s ease-in-out;
+    color: rgb(215, 14, 14);
+}
+
+#btn6 {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    font-family: "Nissan Regular", "Nissan Regular", Verdana, Arial, sans-serif;
+    width: 250px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.5s all;
+    margin-top: 1%;
+}
+
+#btn6:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+}
+
+.child-div7 {
+    width: 100%;
+    height: 100vh;
+}
+
+.child11 {
+    margin-top: 5%;
+}
+
+.child12 {
+    display: flex;
+}
+
+.small-cards {
+    width: fit-content;
+    height: 100px;
+    display: flex;
+    gap: 20px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.card1 {
+    width: 250px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 3px solid brown;
+    padding-left: 1%;
+    background-color: white;
+}
+
+.card2 {
+    width: 250px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 3px solid white;
+    padding-left: 1%;
+    background-color: white;
+    position: relative;
+}
+
+.card3 {
+    width: 250px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 3px solid white;
+    padding-left: 1%;
+    background-color: white;
+    position: relative;
+}
+
+.card1 img {
+    position: relative;
+    top: -110px;
+    left: 60px;
+    width: 200px;
+}
+
+.card2 img {
+    position: relative;
+    top: -110px;
+    left: 60px;
+    width: 200px;
+}
+
+.card3 img {
+    position: relative;
+    top: -110px;
+    left: 60px;
+    width: 200px;
+}
+
+.child13 {
+    padding-top: 9%;
+    margin-left: 10%;
+}
+
+.child14 {
+    width: 100%;
+    height: 90vh;
+    background: url("https://img.freepik.com/free-photo/desert-landscape_23-2148129805.jpg?size=626&ext=jpg&ga=GA1.1.1470837778.1706435121&semt=ais");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    display: flex;
+}
+
+.child15 {
+    padding-top: 8%;
+    margin-left: 10%;
+}
+
+.child15 li {
+    font-size: 14px;
+    color: rgb(123, 119, 119);
+    padding-left: 2%;
+}
+
+.img-div-cars {
+    padding-top: 4%;
+
+}
+
+.cars-1 img {
+    width: 20px;
+    margin-left: 20px;
+}
+
+.child16 {
+    padding-top: 8%;
+}
+
+#btn7:hover i {
+    transform: translateX(37%);
+    transition: 0.4s ease-in-out;
+    color: rgb(190, 18, 18);
+}
+
+#btn7 {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    font-family: "Nissan Regular", "Nissan Regular", Verdana, Arial, sans-serif;
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: brown;
+    border: 1px solid brown;
+    cursor: pointer;
+    transition: 0.5s all;
+    color: #fff;
+}
+
+#btn7:hover {
+    background-color: white;
+    color: brown;
+    border: 1px solid brown;
+}
+
+#btn8:hover i {
+    transform: translateX(40%);
+    transition: 0.4s ease-in-out;
+    color: brown;
+}
+
+#btn8 {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    font-family: "Nissan Regular", "Nissan Regular", Verdana, Arial, sans-serif;
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s all;
+    color: black;
+    margin-left: 5%;
+}
+
+#btn8:hover {
+    color: brown;
+    border: 1px solid brown;
+}
+
+.child17 img {
+    width: 750px;
+    position: relative;
+    top: 25%;
+    left: 5%;
+}
+
+#gtrColor {
+    animation: gtrCar 0.5s ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes gtrCar {
+    0% {
+        transform: scale(0.5);
+        transition: 1s;
+    }
+
+    100% {
+        transform: scale(1);
+        transition: 1s;
+    }
+}
+
+.child-div8 {
+    width: 100%;
+    height: fit-content;
+    background-color: #fff;
+    padding-bottom: 5%;
+}
+
+.child18 {
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;
+}
+
+.c-4 {
+    text-align: center;
+}
+
+.c-4 img {
+    width: 1170px;
+}
+
+.c-3 {
+    padding: 5% 11.5%;
+}
+
+.c-1 img {
+    width: 585px;
+    height: 880px;
+}
+
+.c2-1 img {
+    width: 585px;
+    height: 440px;
+}
+
+.c2-2 {
+    width: 585px;
+    height: 440px;
+    background-color: #F0ECE8;
+}
+
+.c2-2 p {
+    padding-top: 40px;
+    font-size: 33px;
+    word-spacing: -2px;
+    line-height: 40px;
+    padding: 30% 5%;
+}
+
+.c2-3 {
+    width: 585px;
+    height: 440px;
+    background-color: #F0ECE8;
+}
+
+.c2-3 p {
+    font-size: 33px;
+    word-spacing: 0px;
+    line-height: 40px;
+}
+
+.c-5 {
+    padding: 24% 5%;
+}
+
+.child-div9 {
+    width: 100%;
+    height: 600px;
+    background: url("https://www.nissanusa.com/content/dam/Nissan/us/vehicles/gtr/2024/site-simp/overview/2024-nissan-gt-r-t-spec-design.jpg");
+    background-size: 130%;
+    background-position-x: 40%;
+    background-position-y: -10%;
+    flex-wrap: wrap;
+}
+
+.child19 {
+    position: relative;
+    top: 30%;
+    left: 68%;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    text-align: start;
+}
+
+.child20 {
+    position: relative;
+    top: 25%;
+    left: 13%;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+
+}
+
+.child-div10 {
+    width: 100%;
+    height: 600px;
+    background: url("https://www.nissanusa.com/content/dam/Nissan/us/vehicles/gtr/2024/site-simp/overview/2024-nissan-gt-r-nismo-side-view-driving-down-racetrack.jpg");
+    background-size: 120%;
+    background-position-x: 39%;
+    /* margin-top: -13.4%; */
+    flex-wrap: wrap;
+}
+
+.child-div11 {
+    width: 100%;
+    height: fit-content;
+    background-color: #F0ECE8;
+}
+
+.child21-1 {
+    width: 600px;
+    height: 600px;
+    background-color: transparent;
+    text-align: start;
+    padding: 5% 2%;
+}
+
+.child21 {
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+}
+
+.child-div12 {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    padding-top: 6%;
+}
+
+.child22 {
+    width: 1200px;
+    height: 300px;
+    background-color: #F0ECE8;
+    border-top: 1.5px solid black;
+    text-align: start;
+    padding-top: 2%;
+}
+
+.icons-div1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7%;
+    flex-wrap: wrap;
+}
+
+.icons-div2 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1%;
+    transition: 0.2s all;
+    flex-wrap: wrap;
+}
+
+.icons-div1 i {
+    font-size: xx-large;
+    transition: 0.2s all;
+    cursor: pointer;
+
+}
+
+.icons-div1 i:hover {
+    color: brown;
+
+}
+
+.icons-div2 p:hover {
+    color: brown;
+    cursor: pointer;
+}
+
+.footer-div {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(25, 25, 25);
+}
+
+.footer-1 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-1 {
+    margin-left: 5%;
+    padding-top: 1%;
+}
+
+.f-1 p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    color: rgb(170, 163, 163);
+}
+
+.f-2 {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 5%;
+    padding-top: 1%;
+}
+
+.f-2 p {
+    font-size: 14px;
+    padding-top: 8%;
+}
+
+.f-2 button {
+    color: white;
+    font-size: 15px;
+}
+
+.footer-3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    padding-top: 5%;
+    margin-left: -8%;
+}
+
+.footer-3 h6 {
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.footer-3 li {
+    color: rgb(162, 160, 160);
+    list-style: none;
+    padding-top: 16%;
+    font-size: 13px;
+}
+
+.footer-3 li:hover {
+    text-decoration: underline;
+    color: rgb(194, 191, 191);
+}
+
+.footer-4 {
+    padding: 5.5% 4.2%;
+}
+
+.footer-4 i {
+    color: rgb(194, 188, 188);
+    font-size: 22px;
+    margin-left: 1%;
+}
+
+.footer-4 i:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.footer-5 {
+    padding: 0% 4.5%;
+}
+
+.footer-5 p {
+    color: rgb(220, 215, 215);
+    font-size: 13px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.footer-5 p button {
+    padding: 7px 30px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: rgb(220, 215, 215);
+}
+
+*::selection {
+    background-color: olive;
+    color: white;
+}
+
+.gallery-div1 {
+    width: 100%;
+    height: fit-content;
+    border-color: #fff;
+}
+
+.gallery-child1 {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+}
+
+.gallery-child1 li {
+    list-style: none;
+    font-size: 14px;
+    font-family: "Nissan Regular", "Nissan Regular", Verdana, Arial, sans-serif;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+    border-bottom: 3px solid rgb(218, 218, 221);
+}
+
+.gallery-imgs {
+    width: 1205px;
+    height: 600px;
+    margin-top: 2%;
+    background-image: url("https://img.freepik.com/free-photo/lonely-rock-minimalistic-monochrome-seascape_1401-307.jpg?w=996&t=st=1709392635~exp=1709393235~hmac=eb690ca8c2c4e2b19548d57ac01f295b8638cb6377678b8246ac3cc5de3c4ae0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 70%;
+    flex-wrap: wrap;
+}
+
+.gallery-child2 {
+    margin-left: 12%;
+}
+
+.gallery-child3 img {
+    width: 30px;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.gallery-child3 {
+    padding-left: 28%;
+}
+
+#gtr-gallery {
+    animation: gtrCar 0.5s ease-in-out;
+    animation-iteration-count: 1;
+}
+
+#btn-g1 {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    font-family: "Nissan Regular", "Nissan Regular", Verdana, Arial, sans-serif;
+    width: 160px;
+    height: 44px;
+    border-radius: 50px;
+    background-color: rgb(199, 20, 20);
+    border: 1px solid rgb(216, 215, 215);
+    color: white;
+    cursor: pointer;
+    transition: 0.4s all;
+    margin-left: 14%;
+}
+
+#btn-g1:hover {
+    background-color: white;
+    border: 1px solid rgb(199, 20, 20);
+    color: rgb(199, 20, 20);
+}
+
+#btn-g1:hover i {
+    transform: translateX(30%);
+    transition: 0.4s ease-in-out;
+    color: brown;
+}
+
+.gallery-child4 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 5%;
+}
+
+.content {
+    width: 580px;
+    height: 486px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: -84%;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: 0.6s all;
+    text-align: start;
+    padding-top: 35%;
+    padding-left: 5%;
+    cursor: pointer;
+}
+
+.content h1 {
+    color: white;
+    font-family: "Nissan Regular", "Nissan Regular", Verdana, Arial, sans-serif;
+}
+
+.content-1 h1 {
+    color: white;
+    font-family: "Nissan Regular", "Nissan Regular", Verdana, Arial, sans-serif;
+}
+
+.content:hover{
+    opacity: 1;
+}
+
+.gallery-child5 {
+    padding: 2% 11%;
+}
+
+.gallery-child5 img {
+    width: 1190px;
+    height: 658px;
+}
+
+.content-1 {
+    width: 1190px;
+    height: 658px;
+    position: relative;
+    top: 0;
+    margin-top: -55.5%;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: 0.6s all;
+    text-align: start;
+    padding-top: 28%;
+    padding-left: 5%;
+    cursor: pointer;
+}
+
+.content-1:hover {
+    opacity: 1;
+}
+.gallery-child6 {
+    display: flex;
+    margin: 0 11%;
+    gap: 35px;
+}
+
+.gallery-child6 img {
+    width: 374px;
+    height: 484px;
+}
+
+.content-2 {
+    width: 374px;
+    height: 484px;
+    position: relative;
+    top: 0;
+    margin-top: -129.5%;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: 0.6s all;
+    text-align: start;
+    padding-top: 60%;
+    padding-left: 5%;
+    cursor: pointer;
+    color: white;
+}
+
+.content-2:hover {
+    opacity: 1;
+
+}
+
+.gallery-child8 img {
+    display: flex;
+}
+
+.features-div1 {
+    width: 100%;
+    height: 120vh;
+    background-color: #e2e0dd;
+}
+
+.features-child1 {
+    width: 85%;
+    margin: -3% 9%;
+}
+
+.card-div2 p {
+    font-size: 12px;
+    width: 406px;
+    letter-spacing: 0.5px;
+    color: rgb(115, 112, 112);
+    padding-top: 2%;
+}
+
+.cc {
+    display: flex;
+    gap: 70px;
+}
+
+.features-cards1 {
+    width: 85%;
+}
+
+.info {
+    padding: 2% 9%;
+}
+
+.active {
+    border-bottom: 2px solid brown;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.c-div1 {
+    padding-top: 5%;
+}
+
+.c-div1 #connect {
+    width: 400px;
+    color: rgb(134, 130, 130);
+}
+
+.c-div2 {
+    background-color: #F0ECE8;
+    width: 100%;
+    height: 100vh;
+}
+
+.c-div5 {
+    display: flex;
+    margin-top: 3%;
+}
+
+.c {
+    width: 170px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.597);
+    text-align: center;
+    padding-top: 2%;
+    color: #84827f;
+    cursor: pointer;
+}
+
+.c-div4 {
+    padding-top: 7%;
+}
+
+#along-para {
+    width: 490px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    padding-top: 12%;
+    color: #84827f;
+}
+
+.Accessories {
+    width: 100%;
+    height: 140vh;
+    background-color: #fff;
+}
+
+.Access-div {
+    width: 950px;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.kit2 {
+    padding-top: 3%;
+}
+
+.kit2 p {
+    padding-top: 3%;
+}
+
+.nissan-div1 {
+    width: 100%;
+    height: 200vh;
+    background-color: #ffff;
+    padding-top: 5%;
+}
+
+.img {
+    width: 100%;
+    height: 100vh;
+    background: url("https://www.nissanusa.com/offers/static/permalink/v1/1/25394/document/FYE_24_VSP_Desktop_1920x856_TM_2024GTR.jpg?token=foqDbf9tl56TmGb4ivfMqlwat8nBZvnGhRCelZzNusUJNz9bKkMIB15ksBCvE3gF");
+    background-position-x: center;
+}
+
+.img1 {
+    width: 100%;
+    height: 100vh;
+    background: url("https://www.nissanusa.com/offers/static/permalink/v1/1/24632/document/Shopping_Tool_Payment-Estimator-Desktop-1920x856.jpg?token=X6panB5FUHGrd9nzF3BjIwuyFwddrwD783h1TFDfItN3swtyPiDC3JGuQebwVrcZ");
+    background-position-x: center;
+}
+
+.img2 {
+    width: 100%;
+    height: 100vh;
+    background: url("https://www.nissanusa.com/offers/static/permalink/v1/1/24921/document/Shopping-Tool_Dealer-Locator-Desktop-1920x856.jpg?token=GTDrSDqCu59qtiEqPzknjDeZXwxxRIekbgy35JZKRLFtoJis7KLGXnoEP5qfsY6L");
+    background-position-x: center;
+}
+
+.sliders {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+
+#input1 {
+    padding: 7px 25px;
+    position: absolute;
+    top: -120px;
+    left: 0;
+    border-radius: 20px;
+    z-index: 1;
+    outline: none;
+}
+
+#input2 {
+    padding: 7px 25px;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 3%;
+    margin-left: 4%;
+    border: none;
+}
+
+.offers-div1 {
+    width: 100%;
+    height: 110vh;
+    background-color: #f0ece8;
+}
+
+.offers-child1 {
+    padding: 4% 10%;
+}
+
+.offers-child2 {
+    width: 300px;
+    height: 100px;
+    background-color: transparent;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 3%;
+}
+
+#location1 {
+    font-size: 22px;
+}
+
+.location-child1 {
+    display: flex;
+    gap: 8px;
+    margin-top: -3%;
+    margin-left: 3%;
+}
+
+.location-child2 {
+    width: 300px;
+    height: 90px;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    padding-left: 4%;
+    padding-top: 4%;
+}
+
+.offers-child3 {
+    width: 280px;
+    height: 378px;
+    background-color: white;
+    margin-top: 5%;
+}
+
+.main-div1 {
+    display: flex;
+    gap: 30px;
+}
+
+.offers-div2 {
+    width: 100%;
+    height: 95vh;
+    background-color: #fff;
+}
+
+.offers-child4 {
+    padding: 5% 10%;
+}
+
+.map-div {
+    position: relative;
+    left: 30%;
+    top: -50%;
+    background: url("https://www.nissanusa.com/offers/static/permalink/v1/1/5457/document/675x528_map.jpg?token=O6bg5LIf");
+    width: 880px;
+    height: 478px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    cursor: pointer;
+    background-position-y: center;
+}
+
+.box {
+    width: 220px;
+    height: 130px;
+    background-color: rgba(233, 226, 226, 0.507);
+    text-align: start;
+    position: relative;
+    top: 38%;
+    left: 38%;
+    padding: 2% 3%;
+}
+
+.box p {
+    color: black;
+    font-size: 14px;
+    width: 200px;
+}
+
+.offers-div3 {
+    width: 100%;
+    height: 125vh;
+    background-color: #F0ECE8;
+    flex-wrap: wrap;
+}
+
+.form-div {
+    text-align: center;
+    padding-top: 4%;
+}
+
+#outlined-basic {
+    background-color: white;
+    width: 330px;
+    border-radius: 5px;
+}
+
+.inputs1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.inputs2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 1%;
+}
+
+#outlined-basic-1 {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.inputs3 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+#outlined-basic-2 {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.inputs4 {
+    padding-top: 1%;
+}
+
+.offers-div4 {
+    width: 100%;
+    height: 150vh;
+    background-color: white;
+}
+
+.offers-img img {
+    height: 461px;
+    width: 1200px;
+    object-fit: cover;
+}
+
+.offers-img {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.offerschild-2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.offerschild-2 .offer-card {
+    width: 390px;
+    height: 320px;
+    text-align: start;
+}
+
+.offer-card button {
+    border: none;
+    background-color: transparent;
+}
+
+.offer-card button:hover {
+    color: brown;
+}
+
+.offer-card button:hover i {
+    transform: translateX(30%);
+    transition: 0.3s ease-in-out;
+    color: rgb(190, 31, 31);
+}
+#offer-para{
+    font-size: 19px;
+}
+#offer-para1{
+    font-size: 14px;
+    padding-top: 4%;
+    letter-spacing: 0.5px;
+    color: rgb(98, 95, 95);
+}
+.offer-box{
+      width: 1200px;
+      height: 550px;
+      text-align: start;
+      margin-left: 10%;
+      border-top: 1px solid black;
+      padding-top: 4%;
+      display: flex;
+      gap: 43px;
+      border-bottom: 1px solid black;
+}
+.offer-box1{
+    width: 1200px;
+    height: 570px;
+    text-align: start;
+    margin-left: 10%;
+    padding-top: 4%;
+    display: flex;
+    gap: 58px;
+}
+.offer-div5{
+    width: 100%;
+    height: fit-content;
+}
+.offer-box button:hover {
+    color: brown;
+}
+
+.offer-box button:hover i {
+    transform: translateX(30%);
+    transition: 0.3s ease-in-out;
+    color: rgb(190, 31, 31);
+}
+.offer-box button {
+    border: none;
+    background-color: transparent;
+}
+
+.offer-img1{
+    padding-top: 3%;
+}
+.offer-img1 img{
+      width: 396px;
+      height: 360px;
+      object-fit: cover;
+      cursor: pointer;
+}
+.offer-img2{
+    padding-top: 3%;
+}
+.offer-img2 img{
+      width: 570px;
+      height: 380px;
+      object-fit: cover;
+      margin-left: -10%;
+      cursor: pointer;
+}
+.offer-box1 button:hover {
+    color: brown;
+}
+
+.offer-box1 button:hover i {
+    transform: translateX(30%);
+    transition: 0.3s ease-in-out;
+    color: rgb(190, 31, 31);
+}
+.offer-box1 button {
+    border: none;
+    background-color: transparent;
+}
+.specs-div1{
+      width: 100%;
+      height: 95vh;
+      background-color: #f0ece8;
+} 
+.specs-trims{
+    padding: 4% 10%;
+}
+.specs-box1{
+    width: 330px;
+    height: 520px;
+    border: 1px solid rgb(188, 183, 183);
+    padding: 1% 1.5%;
+}
